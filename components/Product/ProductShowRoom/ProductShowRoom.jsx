@@ -9,7 +9,7 @@ const ProductShowRoom = ({ list }) => {
       <Image
         src={material}
         alt="Укрывной материал черного цвета на зеленой траве"
-        className="hidden lg:block"
+        className="hidden lg:block w-1/2 h-[433px] object-cover"
       />
     </div>
   );
