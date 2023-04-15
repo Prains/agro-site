@@ -3,9 +3,9 @@ import { Button, Input, Paragraph } from "@/components/ui";
 export default function FooterFeedback() {
   return (
     <div>
-      <Paragraph className="text-c4 font-title font-bold text-[16px] leading-[95%] mb-[30px] md:mb-[40px] lg:mb-[40px]">
+      <p className="text-c4 font-title font-bold text-[16px] leading-[95%] mb-[30px] md:mb-[40px] lg:mb-[40px]">
         Закажите обратный звонок
-      </Paragraph>
+      </p>
       <Input
         type="tel"
         placeholder="+7 495"

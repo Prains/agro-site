@@ -1,4 +1,3 @@
-import { Paragraph } from "@/components/ui";
 import SocialNavigationItem from "@/components/Footer/FooterNavigation/SocialNavigationList/SocialNavigationItem/SocialNavigationItem";
 import {
   instagramm,
@@ -30,9 +29,9 @@ export default function SocialNavigationList() {
 
   return (
     <nav className="md:ml-[120px] ">
-      <Paragraph className="hidden text-c4 font-title font-bold text-[16px] leading-[95%] mb-[20px] md:mb-[24px] lg:mb-[27px] md:block">
+      <p className="hidden text-c4 font-title font-bold text-[16px] leading-[95%] mb-[20px] md:mb-[24px] lg:mb-[27px] md:block">
         Следи за нами
-      </Paragraph>
+      </p>
       <ul className="flex flex-row items-center md:flex-col md:items-start">
         {socials.map((social, i) => (
           <SocialNavigationItem key={i} {...social} />
