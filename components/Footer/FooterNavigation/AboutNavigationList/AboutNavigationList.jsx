@@ -19,7 +19,7 @@ export default function AboutNavigationList() {
 
   return (
     <nav className="mb-[47px] md:mb-0">
-      <Paragraph className="text-[#c4c4c4] font-title font-bold text-[16px] leading-[95%] mb-[20px] md:mb-[24px] lg:mb-[27px]">
+      <Paragraph className="text-c4 font-title font-bold text-[16px] leading-[95%] mb-[20px] md:mb-[24px] lg:mb-[27px]">
         О компании
       </Paragraph>
       <ul>

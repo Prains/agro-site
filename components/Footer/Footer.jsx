@@ -11,10 +11,10 @@ export default function Footer() {
       </div>
       <hr className="w-[87%] mx-auto mb-[25px]" />
       <div className="w-[87%] mx-auto mb-[25px] flex flex-col items-start justify-between md:flex-row">
-        <Paragraph className="text-[#c4c4c4] text-[11px] md:text-[13px]">
+        <Paragraph className="text-c4 text-xs md:text-sm">
           2023. Все права защищены
         </Paragraph>
-        <Paragraph className="text-[#c4c4c4] text-[11px] md:text-[13px]">
+        <Paragraph className="text-c4 text-xs md:text-sm">
           Сайт разработан ---
         </Paragraph>
       </div>

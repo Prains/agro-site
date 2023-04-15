@@ -1,9 +1,10 @@
 import "@/styles/globals.css";
+import Layout from "@/components/Layout/Layout";
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className="my-0 mx-auto flex items-center justify-center flex-col">
+    <Layout>
       <Component {...pageProps} />
-    </main>
+    </Layout>
   );
 }

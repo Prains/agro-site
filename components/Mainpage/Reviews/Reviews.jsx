@@ -1,5 +1,5 @@
 import "swiper/swiper.min.css";
-import { Subtitle } from "../ui";
+import { Subtitle } from "@/components/ui";
 import { useState } from "react";
 import Slides from "./Slides/Slides";
 

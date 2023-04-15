@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import AboutMainCard from "@/components/About/AboutMain/AboutMainCard/AboutMainCard";
-import AboutCompany from "@/components/About/AboutMain/AboutCompany/AboutCompany";
+import AboutMainCard from "./AboutMainCard/AboutMainCard";
+import AboutCompany from "./AboutCompany/AboutCompany";
 
 import { expertsPng } from "@/images/Homepage/about/about.js";
 
@@ -9,23 +9,19 @@ export default function AboutMain() {
   const infoBlocks = [
     {
       title: "Собственное производство",
-      text:
-        "Благодаря собственному производству мы в кратчайшие сроки реализуем ваш заказ",
+      text: "Благодаря собственному производству мы в кратчайшие сроки реализуем ваш заказ",
     },
     {
       title: "Любой объем, ширина, цвет",
-      text:
-        "Благодаря собственному производству мы в кратчайшие сроки реализуем ваш заказ",
+      text: "Благодаря собственному производству мы в кратчайшие сроки реализуем ваш заказ",
     },
     {
       title: "Специальные условия для новых клиентов",
-      text:
-        "Благодаря собственному производству мы в кратчайшие сроки реализуем ваш заказ",
+      text: "Благодаря собственному производству мы в кратчайшие сроки реализуем ваш заказ",
     },
     {
       title: "Оперативная отгрузка и доставка в любой регион",
-      text:
-        "Благодаря собственному производству мы в кратчайшие сроки реализуем ваш заказ",
+      text: "Благодаря собственному производству мы в кратчайшие сроки реализуем ваш заказ",
     },
   ];
   return (

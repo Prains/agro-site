@@ -1,6 +1,5 @@
-import React from "react";
-import AboutMain from "@/components/About/AboutMain/AboutMain";
-import { Subtitle } from "../ui";
+import AboutMain from "./AboutMain/AboutMain";
+import { Subtitle } from "../../ui";
 
 const About = () => {
   return (
