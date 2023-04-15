@@ -6,7 +6,7 @@ const ButtonList = () => {
       </button>
       <button
         type="submit"
-        className="max-w-[280px] w-full bg-white h-[35px] font-text text-xs font-bold"
+        className="max-w-[280px] w-full bg-white h-[35px] md:h-[46px] font-text text-xs font-bold"
       >
         Отправить данные
       </button>
