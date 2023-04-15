@@ -10,7 +10,7 @@ const Product = () => {
   ];
 
   return (
-    <section>
+    <section className="w-[87%]">
       <ProductHeader />
       <ProductShowRoom list={tabsList} />
     </section>

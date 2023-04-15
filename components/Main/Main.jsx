@@ -27,7 +27,7 @@ const Main = () => {
   ];
 
   return (
-    <section className="flex flex-col items-center justify-center w-[324px] md:w-full">
+    <section className="flex flex-col items-center justify-center w-[324px] md:w-[87%]">
       <Title className={"md:self-start mb-[17px] md:mb-[44px]"}>
         ПОСТАВЩИК <br />
         УКРЫВНЫХ МАТЕРИАЛОВ

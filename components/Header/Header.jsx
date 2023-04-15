@@ -7,7 +7,7 @@ import { navigationItems } from "./navigationItems";
 
 const Header = () => {
   return (
-    <header className="w-full flex flex-row justify-between items-center h-[66px] md:h-[72px] xl:h-[84px]">
+    <header className="w-[87%] flex flex-row justify-between items-center h-[66px] md:h-[72px] xl:h-[84px]">
       <HeaderLogo />
       <HeaderNavigationList navigationItems={navigationItems} />
       <HeaderMobileNavigation navigationItems={navigationItems} />
