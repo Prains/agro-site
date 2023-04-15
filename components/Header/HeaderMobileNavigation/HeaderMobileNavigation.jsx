@@ -8,7 +8,7 @@ export default function HeaderNavigation({ navigationItems }) {
       <Button
         type={"primary"}
         href={"/"}
-        className="px-[11px] w-[110px] flex items-center font-bold md:w-[110px] md:text-[9px] lg:w-[180px] lg:text-[13px] lg:px-[30px] xl:w-[210px]"
+        className="px-[11px] w-[110px] flex items-center font-bold md:text-[9px] lg:w-[180px] lg:text-[13px] lg:px-[30px] xl:w-[210px]"
       >
         Оставить заявку
       </Button>

@@ -5,7 +5,7 @@ const Primary = ({ children, className, href }) => {
     <Link
       href={href}
       className={
-        "text-white text-[9px] text-bold w-[101px] bg-black flex items-center justify-center h-[30px] md:w-[210px] md:h-[46px] md:text-sm hover:bg-textSecondary hover:text-black" +
+        "text-white text-[9px] text-bold w-[101px] bg-black flex items-center justify-center h-[30px] md:w-[140px] md:h-[46px] md:text-sm hover:bg-textSecondary hover:text-black" +
         ` ${className}`
       }
     >
