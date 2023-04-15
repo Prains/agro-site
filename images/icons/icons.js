@@ -3,6 +3,7 @@ import facebook from "./facebook.svg";
 import linkendin from "./linkedin.svg";
 import youtube from "./youtube.svg";
 import burger from "./burger.svg";
-import arrowdown from './arrowdown.svg'
+import arrowdown from "./arrowdown.svg";
+import close from "./close.svg";
 
-export { instagramm, facebook, linkendin, youtube, burger, arrowdown };
+export { instagramm, facebook, linkendin, youtube, burger, arrowdown, close };
