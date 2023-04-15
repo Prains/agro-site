@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function SocialNavigationItem({ title, img }) {
   return (
-    <li className="text-[#c4c4c4] text-text text-[12px] leading-[95%] cursor-pointer ml-[12px] first:ml-[0px] md:ml-0 md:mt-[18px] md:first:mt-0 lg:mt-[22px]">
+    <li className="text-[#c4c4c4] font-text text-[12px] leading-[95%] cursor-pointer ml-[12px] first:ml-[0px] md:ml-0 md:mt-[18px] md:first:mt-0 lg:mt-[22px]">
       <Link className="hidden md:block" href={"/"}>
         {title}
       </Link>
