@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     fontFamily: {
       title: "HeliosCond",
-      text: "Helvetica Neue",
+      text: "HelveticaNeueCyr",
     },
     extend: {
       colors: {
