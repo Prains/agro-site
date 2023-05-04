@@ -12,6 +12,7 @@ export const navigationItems = [
   {
     title: "Оплата и доставка",
     // link: "/delivery",
+    // link: "/delivery",
     link: "/",
   },
   {
